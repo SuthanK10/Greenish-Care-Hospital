@@ -19,7 +19,7 @@ body {
 .hero {
     width: 100%;
     height: 600px;
-    background-image: url('./Images/homebg.jpg'); /* Hero image */
+    background-image: url('../Images/homebg.jpg'); /* Hero image */
     background-size: cover;
     background-position: center;
     margin-bottom: 50px;
