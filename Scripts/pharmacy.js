@@ -89,11 +89,11 @@ fetch('medicines.json')
         medicineCard.appendChild(label); // Append label
         medicineCard.appendChild(quantityInput); // Append input
 
-        // Validate input to allow only positive values
+        // Updated: Allow clearing input and validate positive values
         quantityInput.addEventListener('input', () => {
-          let value = parseInt(quantityInput.value);
-          if (value <= 0 || isNaN(value)) {
-            quantityInput.value = 1; // Reset to 1 if invalid input
+          let value = quantityInput.value;
+          if (value === '' || isNaN(value) || parseInt(value) <= 0) {
+            quantityInput.value = ''; // Allow clearing input temporarily
           }
         });
 
@@ -102,7 +102,7 @@ fetch('medicines.json')
         medicineCard.appendChild(addToCartButton);
 
         addToCartButton.addEventListener('click', () => {
-          let quantity = parseInt(quantityInput.value);
+          let quantity = parseInt(quantityInput.value) || 1; // Fallback to 1 if input is empty
           const existingItem = cart.find((item) => item.name === medicine.name);
 
           if (existingItem) {
