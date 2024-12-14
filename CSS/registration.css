@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
-    background-image: url('/Images/servicesbg.jpg'); /* Background image for the page */
+    background-image: url('../Images/servicesbg.jpg'); /* Background image for the page */
 }
 
 /* Main content styling */
