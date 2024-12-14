@@ -1,0 +1,189 @@
+#heading22{
+  text-align: center;
+}
+
+#your-cart{
+  text-align: center;
+}
+
+.all-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px;  
+}
+
+.all-btns button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Center the category section */
+.category-section {
+  margin: 20px auto; /* Center the entire section horizontally */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center; /* Centers the category title */
+  width: fit-content; /* Ensures the section width adjusts to its content */
+}
+
+/* Center the medicine list */
+.medicine-list {
+  display: flex;
+  justify-content: center; /* Centers the medicines within the section */
+  flex-wrap: wrap; /* Allows wrapping to a new row if needed */
+  gap: 20px; /* Adds space between cards */
+  margin: 0 auto; /* Centers the flex container itself */
+}
+
+/* Styling for individual medicine cards */
+.medicine-card {
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+/* Hover effect for medicine cards */
+.medicine-card:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the medicine image */
+.medicine-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Medicine name and price styling */
+.medicine-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Styling for the quantity input field */
+.medicine-card input[type="number"] {
+  width: 60%; /* Reduce the width for better fit */
+  margin: 10px auto; /* Center it within the card */
+  display: block; /* Ensures proper alignment */
+  text-align: center; /* Align text inside the field */
+  border: 1px solid #ccc; /* Match card border style */
+  border-radius: 5px; /* Add slight rounding for aesthetics */
+  padding: 5px; /* Adjust padding for usability */
+  font-size: 14px; /* Maintain consistent font size */
+}
+
+/* Cart button styling */
+button {
+  padding: 5px 10px;
+  background-color: #add8e6;
+  color: black;
+  text-decoration: solid;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6fa3c7;
+}
+
+button a {
+  color: white; /* Matches the button text color */
+  text-decoration: none; /* Removes the underline */
+  display: block; /* Ensures the anchor fills the button */
+}
+
+button a:hover {
+  color: white; /* Prevents hover color change for the link */
+}
+
+/* Styling for the cart table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Cart table header */
+th {
+  background-color: #f2f2f2;
+}
+
+/* Cart table rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Cart image and name container */
+.cart-img-container {
+  text-align: center;
+}
+
+/* Cart image styling */
+.cart-img-container img {
+  width: 50px; /* Adjust the image size */
+  height: auto;
+  margin-bottom: 5px;
+}
+
+/* Cart name styling */
+.cart-img-container p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Total price styling */
+#total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Styling for the cart summary section */
+#cart-summary {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#hr-footer{
+  position: relative;
+  top: 10px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  #hr-footer{
+    position: relative;
+    top: 12px;
+  }
+}

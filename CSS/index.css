@@ -1,0 +1,204 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #adbce6; /* Light blue background */
+}
+
+/* Styling for the main heading inside .heading1 */
+.heading1 h2 {
+    text-align: center;
+    margin-top: -65px;
+    position: relative;
+    bottom: 40px;
+    font-size: 40px;
+}
+
+/* Hero section styling (full-width image) */
+.hero {
+    width: 100%;
+    height: 600px;
+    background-image: url('/Images/homebg.jpg'); /* Hero image */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 7.5px;
+}
+
+/* Styling for h1 heading */
+h1 {
+    text-align: center;
+}
+
+/* Section 02 layout styling */
+.sect02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0;
+    border: 2px solid black;
+    transition: all 1s ease;
+}
+
+.sect02:hover{
+    transform: scale(1.1);
+}
+
+/* Introduction section styling */
+.intro {
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+/* Section 03 layout styling */
+.sect03 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Column styling for individual items */
+.column {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    transition: all 1s ease;
+}
+
+.column:hover{
+    transform: scale(1.1);
+}
+
+/* Image styling inside columns */
+.column img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Heading styling inside columns */
+.column h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Paragraph styling inside columns */
+.column p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* List styling inside columns */
+.column ol,
+.column ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* List item styling inside columns */
+.column li {
+    margin-bottom: 5px;
+}
+
+/* Additional image styling inside columns */
+.column img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Button styling for services section */
+.services-btn {
+    display: flex; /* Center content if needed */
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #3c6b92;
+    padding: 15px;
+    border: 0;
+    color: white; /* Text color is white */
+    font-size: 16px; /* Adjust font size if needed */
+    cursor: pointer; /* Makes it clear it's clickable */
+}
+
+.services-btn:hover {
+    background-color: #325877; /* Darker background on hover */
+}
+
+
+/* Horizontal rule styling in the footer */
+#hr-footer {
+    position: relative;
+    top: 10px;
+}
+
+/* Responsive styling for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Body overflow adjustments for smaller screens */
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    /* Hero section adjustments for smaller screens */
+    .hero {
+        height: 500px;
+        width: 100%;
+        position: relative;
+        top: 35px;
+    }
+
+    /* Section 02 width adjustments for smaller screens */
+    .sect02 {
+        max-width: 92%;
+    }
+
+    /* Introduction section width adjustments for smaller screens */
+    .intro {
+        width: 100%;
+    }
+
+    /* Section 03 layout adjustments for smaller screens */
+    .sect03 {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        right: 10px;
+    }
+
+    /* Column width adjustments for smaller screens */
+    .column {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    /* Services button width and alignment adjustments for smaller screens */
+    .services-btn {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
+}

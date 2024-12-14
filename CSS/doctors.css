@@ -1,0 +1,92 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #e6bbad; /* Light peach background */
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+}
+
+/* Section 01 layout styling */
+.sect01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section 02 layout styling */
+.sect02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Column styling for items within sect01 and sect02 */
+.column {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    transition: all 1s ease;
+}
+
+/*Animations*/
+.column:hover{
+    transform: scale(1.1);
+}
+
+/* Image styling within columns */
+.column img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Heading styling within columns */
+.column h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Paragraph and list styling within columns */
+.column p,
+.column ol,
+.column ul {
+    text-align: left;
+}
+
+/* List item styling within columns */
+.column li {
+    margin-bottom: 5px;
+}
+
+/* Footer styling */
+#hr-footer {
+    position: relative;
+    top: 10px;
+}
+
+/* Responsive styling for screens smaller than 768px */
+@media (max-width: 768px) {
+    h1 {
+        position: relative;
+        top: 30px;
+    }
+}

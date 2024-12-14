@@ -1,0 +1,94 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #ADe6bb; /* Light green background color */
+}
+
+/* Section 01: Padding and centered text */
+.sect01 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Service section grid layout with 2 columns and gap between them */
+.service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    gap: 20px; /* Gap between grid items */
+}
+
+/* Service box: Flex layout for image and text, with padding and background */
+.service-box {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 1s ease;
+    align-items: center;
+}
+
+.service-box:hover{
+    transform: scale(1.05);
+}
+
+/* Service box image: Size adjustments */
+.service-box img {
+    width: 200px;
+    height: 180px; /* Fixed size for service images */
+    position: relative;
+    top: 30px;
+    margin-bottom: 56px;
+}
+
+/* Service text: Spacing for text next to the image */
+.service-text {
+    padding-left: 10px;
+}
+
+/* Registration button styling: Centered, background color, and hover effect */
+.registration-btn {
+    margin: 20px auto; /* Centers the button */
+    padding: 10px 20px;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+/* Footer horizontal rule positioning */
+#hr-footer {
+    position: relative;
+    top: 10px;
+}
+
+/* Responsive layout for screens smaller than 768px */
+@media (max-width: 768px) {
+
+    /* Adjust h1 positioning for smaller screens */
+    h1 {
+        position: relative;
+        top: 10px;
+    }
+
+    /* Service grid switches to a single column */
+    .service {
+        grid-template-columns: 1fr;
+    }
+
+    /* Flex direction changes to column for better alignment on small screens */
+    .service-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box img{
+       margin-bottom: 32px;
+       width: 300px;
+       height: 250px;
+    }
+}

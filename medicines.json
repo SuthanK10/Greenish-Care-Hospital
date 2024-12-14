@@ -1,0 +1,57 @@
+[
+    {
+        "category": "Analgesics",
+        "medicines": [
+            { "name": "Paracetamol", "price": 10, "image": "Images/paracetamol.jpg" },
+            { "name": "Ibuprofen", "price": 15, "image": "Images/ibuprofen.jpg" },
+            { "name": "Aspirin", "price": 12, "image": "Images/aspirin.png" },
+            { "name": "Diclofenac", "price": 18, "image": "Images/diclofenac.png" },
+            { "name": "Naproxen", "price": 20, "image": "Images/naproxen.jpg" },
+            { "name": "Tramadol", "price": 25, "image": "Images/tramadol.jpg" }
+        ]
+    },
+    {
+        "category": "Antibiotics",
+        "medicines": [
+            { "name": "Amoxicillin", "price": 30, "image": "Images/amoxicillin.jpg" },
+            { "name": "Ciprofloxacin", "price": 40, "image": "Images/ciprofloxacin.jpg" },
+            { "name": "Azithromycin", "price": 35, "image": "Images/azithromycin.jpg" },
+            { "name": "Cefixime", "price": 32, "image": "Images/cefixime.png" },
+            { "name": "Doxycycline", "price": 25, "image": "Images/doxycycline.png" },
+            { "name": "Metronidazole", "price": 22, "image": "Images/metronidazole.jpg" }
+        ]
+    },
+    {
+        "category": "Antidepressants",
+        "medicines": [
+            { "name": "Sertraline", "price": 50, "image": "Images/sertraline.jpg" },
+            { "name": "Fluoxetine", "price": 45, "image": "Images/fluoxetine.jpg" },
+            { "name": "Citalopram", "price": 48, "image": "Images/citalopram.jpg" },
+            { "name": "Escitalopram", "price": 55, "image": "Images/escitalopram.jpeg" },
+            { "name": "Amitriptyline", "price": 60, "image": "Images/amitriptyline.jpg" },
+            { "name": "Bupropion", "price": 65, "image": "Images/bupropion.jpg" }
+        ]
+    },
+    {
+        "category": "Antihistamines",
+        "medicines": [
+            { "name": "Loratadine", "price": 12, "image": "Images/loratadine.jpg" },
+            { "name": "Cetirizine", "price": 10, "image": "Images/cetirizine.jpg" },
+            { "name": "Diphenhydramine", "price": 8, "image": "Images/diphenhydramine.jpg" },
+            { "name": "Fexofenadine", "price": 15, "image": "Images/fexofenadine.png" },
+            { "name": "Desloratadine", "price": 14, "image": "Images/desloratadine.jpg" },
+            { "name": "Levocetirizine", "price": 13, "image": "Images/levocetirizine.jpg" }
+        ]
+    },
+    {
+        "category": "Antihypertensives",
+        "medicines": [
+            { "name": "Amlodipine", "price": 35, "image": "Images/amlodipine.jpg" },
+            { "name": "Losartan", "price": 45, "image": "Images/losartan.jpg" },
+            { "name": "Metoprolol", "price": 50, "image": "Images/metoprolol.jpg" },
+            { "name": "Enalapril", "price": 40, "image": "Images/enalapril.png" },
+            { "name": "Ramipril", "price": 38, "image": "Images/ramipril.jpg" },
+            { "name": "Telmisartan", "price": 48, "image": "Images/telmisartan.jpg" }
+        ]
+    }
+]

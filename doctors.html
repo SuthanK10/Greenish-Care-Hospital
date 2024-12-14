@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenish Care - Doctors</title>
+    <!-- External CSS Links for Styling the Page and Icons -->
+    <link rel="stylesheet" href="CSS/header_and_footer.css">
+    <link rel="stylesheet" href="CSS/doctors.css">
+    <!-- Favicon Links for various devices and platforms -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
+    <link rel="manifest" href="Favicons/site.webmanifest">
+    <link rel="mask-icon" href="Favicons/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
+        </div>
+        <!-- Top-right section: Language switcher and login button -->
+        <div class="topright">
+            <div class="language-switcher">
+                <select class="language-select">
+                    <option value="english" selected>English</option>
+                    <option value="tamil">Tamil</option>
+                    <option value="sinhala">Sinhala</option>
+                </select>
+            </div>
+            <div class="login-logo">
+                <a href="login.html"><img src="Images/loginlogo.png" alt="Login logo"></a>
+            </div>
+        </div>
+        <!-- Main Heading -->
+        <div class="heading1">
+            <h2>Greenish Care</h2>
+        </div>
+        <!-- Horizontal rule -->
+        <hr>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="services.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="pharmacy.html">Pharmacy</a>
+            <a href="registration.html">Registration</a>
+            <div class="search-container">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input type="text" id="search-input" class="search-input" placeholder="Search...">
+            </div>
+        </nav>
+        <!-- Horizontal rule -->
+        <hr>
+    </header>
+    <main>
+        <!-- Main Heading for Doctors Section -->
+        <h1>Doctors</h1>
+        <section class="sect01">
+            <!-- Doctor Profile Column 1 -->
+            <div class="column">
+                <img src="Images/RS_Doc1.jpg" alt="Photo of Dr Sofia Martinez, MD">
+                <p>Name: Dr. Sofia Martinez, MD</p>
+                <p>Specialty: Cardiology</p>
+                <p>Description: Dr. Sofia Martinez is an experienced cardiologist specializing in heart disease prevention and treatment. She is known for her patient-centered care and expertise in non-invasive procedures.</p>
+            </div>
+            <!-- Doctor Profile Column 2 -->
+            <div class="column">
+                <img src="Images/RS_Doc2.jpg" alt="Photo of Dr. David Hernandez, DO">
+                <p>Name: Dr. David Hernandez, DO</p>
+                <p>Specialty: Orthopedic Surgery</p>
+                <p>Description: Dr. David Hernandez is an orthopedic surgeon specializing in sports injuries and joint replacement. He is recognized for his innovative surgical techniques and personalized recovery plans.</p>
+            </div>
+            <!-- Doctor Profile Column 3 -->
+            <div class="column">
+                <img src="Images/RS_Doc3.jpg" alt="Photo of Dr. Emily Nguyen, PhD, PsyD">
+                <p>Name: Dr. Emily Nguyen, PhD, PsyD</p>
+                <p>Specialty: Clinical Psychology</p>
+                <p>Description: Dr. Emily Nguyen is a clinical psychologist specializing in anxiety and depression. She uses cognitive-behavioral therapy and mindfulness to help patients achieve mental wellness.</p>
+            </div>
+        </section>
+        <section class="sect02">
+            <!-- Doctor Profile Column 4 -->
+            <div class="column">
+                <img src="Images/RS_Doc4.jpg" alt="Photo of Dr. Michael Johnson, MD">
+                <p>Name: Dr. Michael Johnson, MD</p>
+                <p>Specialty: Neurology</p>
+                <p>Description: Dr. Michael Johnson is a neurologist with expertise in treating neurological disorders such as epilepsy and migraines. He is known for his thorough diagnostic skills and compassionate patient care.</p>
+            </div>
+            <!-- Doctor Profile Column 5 -->
+            <div class="column">
+                <img src="Images/RS_Doc5.jpg" alt="Photo of Dr. Anna Kim, DDS">
+                <p>Name: Dr. Anna Kim, DDS</p>
+                <p>Specialty: Dentistry</p>
+                <p>Description: Dr. Anna Kim is a dentist specializing in cosmetic and pediatric dentistry. She is highly regarded for her gentle approach and ability to make dental visits comfortable for all ages.</p>
+            </div>
+            <!-- Doctor Profile Column 6 -->
+            <div class="column">
+                <img src="Images/RS_Doc6.jpg" alt="Photo of Dr. Luca Romano, MD">
+                <p>Name: Dr. Luca Romano, MD</p>
+                <p>Specialty: Rheumatology</p>
+                <p>Description: Dr. Luca Romano is a Milan-based rheumatologist specializing in autoimmune diseases and chronic inflammation, such as rheumatoid arthritis and lupus. Known for his compassionate care and patient-centered approach.</p>
+            </div>
+        </section>
+    </main>
+    <!-- Horizontal rule before footer -->
+    <hr id="hr-footer">
+    <footer>
+        <div class="footer">
+            <!-- Footer Logo -->
+            <div class="footer-logo">
+                <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
+            </div>
+            <!-- Contact Information -->
+            <div class="contact">
+                <p>Contact us: (011) 2524167</p>
+            </div>
+            <!-- Appointment Booking Button -->
+            <button class="appointment" onclick="window.location.href='./reservation.html'">Book an Appointment</button>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="footer-text">
+            <p>&copy; 2024 Greenish Care. All Rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

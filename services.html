@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenish Care - Services</title>
+    <!-- External CSS Links for Styling the Page and Icons -->
+    <link rel="stylesheet" href="CSS/header_and_footer.css">
+    <link rel="stylesheet" href="CSS/services.css">
+    <!-- Favicon Links for various devices and platforms -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
+    <link rel="manifest" href="Favicons/site.webmanifest">
+    <link rel="mask-icon" href="Favicons/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
+        </div>
+        <!-- Top-right section: Language switcher and login button -->
+        <div class="topright">
+            <div class="language-switcher">
+                <select class="language-select">
+                    <option value="english" selected>English</option>
+                    <option value="tamil">Tamil</option>
+                    <option value="sinhala">Sinhala</option>
+                </select>
+            </div>
+            <div class="login-logo">
+                <a href="login.html"><img src="Images/loginlogo.png" alt="Login logo"></a>
+            </div>
+        </div>
+        <!-- Main Heading -->
+        <div class="heading1">
+            <h2>Greenish Care</h2>
+        </div>
+        <!-- Horizontal rule -->
+        <hr>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="services.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="pharmacy.html">Pharmacy</a>
+            <a href="registration.html">Registration</a>
+            <div class="search-container">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input type="text" id="search-input" class="search-input" placeholder="Search...">
+            </div>
+        </nav>
+        <!-- Horizontal rule -->
+        <hr>
+    </header>
+    <main>
+        <!-- Services Section -->
+        <section class="sect01">
+            <h1>Services</h1>
+            <div class="service">
+                <!-- Primary Care Service -->
+                <div class="service-box">
+                    <img src="Images/RS_PrimaryCare.jpg" alt="Photo of Primary Care">
+                    <div class="service-text">
+                        <h3>Primary Care</h3>
+                        <p>Comprehensive care for all ages, including routine check-ups, preventive screenings, and vaccinations. Our primary care physicians focus on health promotion, disease prevention, and the management of chronic conditions, ensuring personalized care and continuity for every patient.</p>
+                    </div>
+                </div>
+                <!-- Surgery Service -->
+                <div class="service-box">
+                    <img src="Images/RS_Surgery.jpg" alt="Photo of Surgery">
+                    <div class="service-text">
+                        <h3>Surgery</h3>
+                        <p>We offer a broad range of surgical services, from general surgery to specialized procedures in areas such as orthopedics, cardiology, and neurology. Our surgical team utilizes state-of-the-art technology, including minimally invasive techniques, to ensure the best possible outcomes and faster recovery times.</p>
+                    </div>
+                </div>
+                <!-- Pharmacy Service -->
+                <div class="service-box">
+                    <img src="Images/RS_Pharmacy.jpg" alt="Photo of Pharmacy">
+                    <div class="service-text">
+                        <h3>Pharmacy</h3>
+                        <p>Convenient in-house pharmacy services offering prescription fulfillment, medication counseling, and support for managing complex medication regimens. Our pharmacists collaborate with healthcare providers to ensure safe and effective medication use.</p>
+                    </div>
+                </div>
+                <!-- Pediatrics Service -->
+                <div class="service-box">
+                    <img src="Images/RS_Pediatrics.jpg" alt="Photo of Pediatrics">
+                    <div class="service-text">
+                        <h3>Pediatrics</h3>
+                        <p>Specialized healthcare services for infants, children, and adolescents, offering everything from routine check-ups and immunizations to the treatment of complex pediatric conditions. Our pediatricians are dedicated to the physical, emotional, and developmental well-being of every child.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Registration Button -->
+        <button class="registration-btn" onclick="location.href='registration.html';">Registration</button>
+    </main>
+    <!-- Horizontal rule before footer -->
+    <hr id="hr-footer">
+    <footer>
+        <div class="footer">
+            <!-- Footer Logo -->
+            <div class="footer-logo">
+                <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
+            </div>
+            <!-- Contact Information -->
+            <div class="contact">
+                <p>Contact us: (011) 2524167</p>
+            </div>
+            <!-- Appointment Booking Button -->
+            <button class="appointment" onclick="window.location.href='./reservation.html'">Book an Appointment</button>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="footer-text">
+            <p>&copy; 2024 Greenish Care. All Rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

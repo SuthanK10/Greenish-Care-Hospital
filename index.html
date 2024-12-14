@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenish Care - Home</title>
+    <!-- Linking CSS files for styles and icons -->
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/header_and_footer.css">
+    <!-- Favicons for different devices and browsers -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicons/favicon-16x16.png">
+    <link rel="manifest" href="Favicons/site.webmanifest">
+    <link rel="mask-icon" href="Favicons/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <!-- Header section starts -->
+    <header>
+        <!-- Logo of the hospital linking back to the homepage -->
+        <div class="logo">
+            <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
+        </div>
+        <!-- Top right section for language switcher and login icon -->
+        <div class="topright">
+            <div class="language-switcher">
+                <select class="language-select">
+                    <option value="english" selected>English</option>
+                    <option value="tamil">Tamil</option>
+                    <option value="sinhala">Sinhala</option>
+                </select>
+            </div>
+            <div class="login-logo">
+                <img src="Images/loginlogo.png" alt="Login logo">
+            </div>
+        </div>   
+        <!-- Hospital name displayed in the header -->
+        <div class="heading1">
+            <h2>Greenish Care</h2>
+        </div> 
+        <hr>
+        <!-- Navigation bar for easy access to different pages -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="services.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="reservation.html">Reservation</a>
+            <a href="pharmacy.html">Pharmacy</a>
+            <a href="registration.html">Registration</a>
+            <!-- Search bar within the navigation bar -->
+            <div class="search-container">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input type="text" id="search-input" class="search-input" placeholder="Search...">
+            </div>
+        </nav>   
+        <hr>    
+    </header>
+    
+    <!-- Main content of the page -->
+    <main>
+        <!-- Hero section for showcasing key visuals or text -->
+        <section>
+            <div class="hero"></div>
+        </section>
+        
+        <!-- Main heading for the homepage -->
+        <h1>Home</h1>
+        <!-- Introduction section -->
+        <section class="sect02">
+            <div class="intro">
+                <h2>Greenish Health Care</h2>
+                <p>At Greenish Care, we are dedicated to providing exceptional medical services in a nurturing and compassionate environment. Our state-of-the-art facilities and highly skilled professionals ensure that you receive the best care possible, tailored to your unique needs. Whether you’re here for routine check-ups or specialized treatments, our commitment to your health and well-being is our top priority. Explore our comprehensive range of services and discover how we can support you on your journey to better health.</p>
+            </div>
+        </section>
+        
+        <!-- Section displaying key hospital services -->
+        <section class="sect03">
+            <div class="column">
+                <img src="Images/emergency_care.jpg" alt="Photo of an Emergency Care">
+                <h2>Emergency Care</h2>
+                <p>Our 24/7 emergency department is equipped to handle any medical emergency. Our team of experienced doctors, nurses, and support staff are ready to provide immediate care when every second counts.From trauma and critical care to minor injuries, we are prepared to treat a wide range of emergencies with speed and efficiency.</p>
+                <ol>
+                    <li>24/7 Availability</li>
+                    <li>Trauma Care</li>
+                    <li>Rapid Response Team</li>
+                </ol>
+            </div>
+            <div class="column">
+                <img src="Images/specialized_care.jpg" alt="Photo of Specialized Medical Services">
+                <h2>Specialized Medical Services</h2>
+                <p>We offer a variety of specialized medical services, including cardiology, oncology, orthopedics, and neurology. Our specialists are highly trained and use the latest technology to provide advanced care for complex conditions.Our integrated approach ensures that patients receive comprehensive care, from diagnosis and treatment to rehabilitation and follow-up.</p>
+                <ul>
+                    <li>Initial Consultation</li>
+                    <li>Advanced Diagnostics</li>
+                    <li>Personalized Treatment Plans</li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="Images/Patient_and_family_support_services.jpg" alt="Photo of Patient and Family Support Services">
+                <h2>Patient and Family Support Services</h2>
+                <p>At our hospital, we believe that support for our patients and their families is just as important as medical care. We offer a range of support services, including counseling, social work, and financial assistance programs.Our dedicated team is here to help you navigate the healthcare system and provide the support you need during your hospital stay and beyond.</p>
+            </div>
+            <!-- Button linking to more services -->
+            <button class="services-btn" onclick="window.location.href='services.html'">More Services</button>
+        </section>
+    </main>
+    
+    <!-- Horizontal line before footer -->
+    <hr id="hr-footer">
+    
+    <!-- Footer section -->
+    <footer>
+        <!-- Footer with hospital logo and contact details -->
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="Images/GreenishCare.png" alt="The Logo of the Hospital, Greenish Care">
+            </div>        
+            <div class="contact">
+                <p>Contact us: (011) 2524167</p>
+            </div>
+            <!-- Button linking to the appointment page -->
+            <button class="appointment" onclick="window.location.href='./reservation.html'">Book an Appointment</button>
+        </div>
+        <!-- Footer text with copyright information -->
+        <div class="footer-text">
+            <p>&copy; 2024 Greenish Care. All Rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Reference Links
+     Content of the webpage: Taken from chatgpt.com
+     Images of the webpage: Taken from unsplash.com -->
+</body>
+</html>

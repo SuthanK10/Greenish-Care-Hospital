@@ -1,0 +1,173 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #ade6d8;
+}
+
+/* Styling for the about us section */
+.about-us{
+    text-align: center;
+}
+
+/* Styling for main heading within the about us section */
+.heading1 h2{
+    text-align: center;
+    margin-top: -65px;
+    position: relative;
+    bottom: 40px;
+    font-size: 40px;
+}
+
+/* Styling for the branches section layout */
+.branches{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Styling for individual columns within the branches section */
+.column{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.column:hover{
+    transform: scale(1.02);
+}
+
+/* Styling for hospital images */
+.hospital-img img{
+    height: 150px;
+    width: 200px;
+    justify-content: left;
+    border: 2px solid black;
+}
+
+/* Padding for paragraph elements */
+p{
+    padding-left: 10px;
+}
+
+/* Styling for iframe elements */
+iframe{
+    height: 150px;
+    width: 200px;
+    justify-content: right;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+/* Hover effect for iframes */
+iframe:hover{
+    transform: scale(1.1);
+    transition: all 5s ease; 
+}
+
+/* Styling for the table section */
+.table-sect{
+    margin-top: 20px;
+}
+
+/* Styling for tables */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+}
+
+/* Styling for table headers and cells */
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Styling for the horizontal rule in the footer */
+#hr-footer{
+    position: relative;
+    top: 10px;
+}
+
+/* Responsive styling for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Padding adjustments for the about us section */
+    .about-us{
+        padding: 15px;
+    }
+
+    /* Styling for h1 heading on smaller screens */
+    h1{
+        font-size: 24px;
+        margin-bottom: 5px;
+        position: relative;
+        top: 10px;
+    }
+
+    /* Styling for the main heading within the about us section on smaller screens */
+    .heading1 h2{
+        font-size: 30px;
+        position: relative;
+        bottom: 65px;
+    }
+
+    /* Layout adjustments for the branches section on smaller screens */
+    .branches{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Width and padding adjustments for individual columns on smaller screens */
+    .column{
+        width: 100%;
+        padding: 10px;
+        position: relative;
+        right: 15px;
+    }
+
+    /* Layout adjustments for hospital images on smaller screens */
+    .hospital-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Text alignment adjustments for paragraphs on smaller screens */
+    p{
+        text-align: center;
+    }
+
+    /* Size and positioning adjustments for iframes on smaller screens */
+    iframe{
+        width: 200px;
+        height: 150px;
+        margin-bottom: 15px;
+        position: relative;
+        right: 5px;
+    }
+
+    /* Padding adjustments for the table section on smaller screens */
+    .table-sect{
+        padding: 10px;
+    }
+
+    /* Font size adjustment for tables on smaller screens */
+    table{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /* Padding adjustments for table headers and cells on smaller screens */
+    th,td{
+        padding: 8px;
+    }
+}
