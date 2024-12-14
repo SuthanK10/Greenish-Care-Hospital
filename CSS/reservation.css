@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
-    background-image: url('/Images/reservationbg.jpg'); /* Background image for the reservation page */
+    background-image: url('../Images/reservationbg.jpg'); /* Background image for the reservation page */
 }
 
 /* Reservation form container styling */
